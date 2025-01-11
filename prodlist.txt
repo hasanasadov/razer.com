@@ -1,0 +1,244 @@
+all item keys:
+{
+	item1:
+	{	
+		name: NEW RAZER BLADE 14
+		desc-card: NVIDIA® GeForce RTX™ 40 Series 14” Laptop with AMD Ryzen 9 7940HS Processor.
+		img-card:https://assets3.razerzone.com/HWyBrdi1Zay37XldxX3Y1O4puOg=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhb7%2Fh1b%2F9539342008350%2Fblade14-p9-black-500x500.png
+		price:2399.99
+		category:pc
+	}
+	item2:
+	{	
+		name: NEW RAZER BLADE 16
+		desc-card: NVIDIA® GeForce RTX™ 40 Series 16” Laptop with 13th Gen Intel® Core™ i9 Processor (24-Core).
+		img-card:https://assets3.razerzone.com/AqlD4yg0b4pooh6UMzHRDRfFoeM=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh03%2Fh9e%2F9524617838622%2Fblade16-s95-mercury-500x500.png
+		price:3799.99
+		category:pc
+	}
+	item3:
+	{	
+		name: NEW RAZER BLADE 18
+		desc-card: NVIDIA® GeForce RTX™ 40 Series 14” Laptop with AMD Ryzen 9 7940HS Processor.
+		img-card:https://assets3.razerzone.com/AqlD4yg0b4pooh6UMzHRDRfFoeM=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh03%2Fh9e%2F9524617838622%2Fblade16-s95-mercury-500x500.png
+		price:3799.99
+		category:pc
+	}
+	item4:
+	{	
+		name: Razer Plushie
+		desc-card: Collectible Plushie for Razer Fans.
+		img-card:https://assets3.razerzone.com/EgGB90Ld6HD4IRl31o0ELbWUOso=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh59%2Fh27%2F9525789589534%2Fths-plushie-500x500.png
+		price:34.99
+		category:lifestyle
+	}
+	item5:
+	{	
+		name: Razer Moray
+		desc-card: Ergonomic In-ear Monitor for All-day Streaming.
+		img-card:https://assets3.razerzone.com/rPwKS5S5e2c-df6kyshZUlVOalw=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh69%2Fh38%2F9591445061662%2Fmoray-500x500.png
+		price:129.99
+		category:peripheral
+	}
+	item6:
+	{	
+		name: Razer Nommo V2 Models
+		desc-card: Full-Range 2.1 PC Gaming Speakers with Wired Subwoofer
+		img-card:https://assets3.razerzone.com/PZQYr024AGmuTEeyxLaIi1r1CwI=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh40%2Fh81%2F9522168987678%2Fnommo-v2-500x500.png
+		price:299.99
+		category:peripheral
+	}
+	item7:
+	{	
+		name: Razer Wireless Controller & Quick Charging Stand for Xbox Razer Limited Edition
+		desc-card: Officially Licensed Xbox Controller and Quick Charging Stand
+		img-card:https://assets3.razerzone.com/dc2a8ydrlYbI1Cxql4dqvGcyOtA=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhe8%2Fha6%2F9450109992990%2Funiversal-quick-charging-stand-xbox-v2-500x500.png
+		price:199.99
+		category:console
+	}
+	item8:
+	{	
+		name: Razer DeathStalker V2 Pro Tenkeyless - Clicky Optical Switch - US - Black
+		desc-card: Wireless Low-Profile RGB Tenkeyless Optical Keyboard
+		img-card:https://assets3.razerzone.com/TuWuCs40JqlaHBxvYFW7ev-Lml0=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh7d%2Fh59%2F9533910089758%2Fdeathstalker-v2-pro-tkl-4-500x500.png
+		price:219.99
+		category:peripheral
+	}
+	item9:
+	{	
+		name: Razer Naga Left-Handed Edition
+		desc-card: Ergonomic MMO Gaming Mouse for Left-Handed Users
+		img-card:https://assets3.razerzone.com/PjExqIfYxtEgQg-WMszhQge8Pd0=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh09%2Fhba%2F9529652346910%2Fnaga-left-handed-2-500x500.png
+		price:99.99
+		category:peripheral
+	}
+	item10:
+	{	
+		name: Razer Enki Pro - Automobili Lamborghini Edition
+		desc-card: Premium Gaming Chair with Alcantara® Leather for All-Day Comfort
+		img-card:https://assets3.razerzone.com/ZDU4mfPpNnf51UhvcVSt2KliIEg=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh4e%2Fh58%2F9456056172574%2Fenki-pro-lamborghini-500x500.png
+		price:1299.99
+		category:lifestyle
+	}
+	item11:
+	{	
+		name: Razer Enki Pro - Koenigsegg Edition
+		desc-card: Premium Gaming Chair with Alcantara® Leather for All-Day Comfort
+		img-card:https: https://assets3.razerzone.com/R3uCcugMuuPu18L1LxiapmDCLAU=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh4e%2Fh74%2F9424953245726%2Fenki-pro-koenigsegg-500x500.png
+		price:1299.99
+		category:lifestyle
+	}
+	item12:
+	{	
+		name: Razer Kiyo Pro Ultra
+		desc-card: Ultra-large Sensor 4K Webcam for Content Creation
+		img-card:https://assets3.razerzone.com/gr8orw21Pi1EQe4PPA903Ym_JSE=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh04%2Fhee%2F9488900784158%2Fkiyo-pro-ultra-2-500x500.png
+		price:299.99
+		category:peripheral
+	}
+	item13:
+	{	
+		name: Razer Blade 15 Full HD (2022)
+		desc-card: Flagship 15-inch Laptop for Power and Portability
+		img-card:https://assets3.razerzone.com/UUODnE8z5w_1YhkDj3Gzf2wPwO8=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh2d%2Fhe5%2F9392073998366%2Fblade15-ch8-fhd-2-500x500.png
+		price:1999.99
+		category:pc
+	}
+	item14:
+	{	
+		name: Razer Cobra Pro
+		desc-card: Customizable Wireless Gaming Mouse with Razer Chroma™ RGB
+		img-card:https://assets3.razerzone.com/eUwowPQInL0giKWLJuZWhXRa3bA=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhea%2Fh5f%2F9591466917918%2Fcobra-pro-500x500.png
+		price:129.99
+		category:peripheral
+	}
+	item15:
+	{	
+		name: Razer Universal Quick Charging Stand for Xbox - Forza Horizon 5 Limited Edition
+		desc-card: Quick Charging Stand for Xbox Wireless Controllers
+		img-card:https://assets3.razerzone.com/ByDiK-w0vwJ_19ap_8I-MjH1qBk=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh04%2Fh92%2F9450117496862%2Fforza-horizon-5-v2-500x500.png
+		price:49.99
+		category:console
+	}
+	item16:
+	{	
+		name: Razer Essential Duo Bundle for Xbox - Electric Volt
+		desc-card: Wired Headset and Quick Charger for Xbox Controllers (Controller sold separately)
+		img-card:https://assets3.razerzone.com/JI6-5OeuCzr-5qmJvKfTT208VqE=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhd5%2Fh5d%2F9264375693342%2Fessential-duo-bundle-lime-500x500.png
+		price:89.99
+		category:console
+	}
+	item17:
+	{	
+		name: Razer Wolverine V2 Chroma - White - White
+		desc-card: Xbox Series X|S Controller with Razer Chroma™ RGB
+		img-card:https://assets3.razerzone.com/hP0i-RvqYGP5QORtL-NV811iUos=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh3d%2Fh61%2F9264375595038%2Frazer-wolverine-v2-chroma-white_500x500.png
+		price:149.99
+		category:console
+	}
+	item18:
+	{	
+		name: Razer Sneki Snek Wall Light
+		desc-card: Wall-mounted LED Neon Gaming Light with RGB Lighting
+		img-card:https://assets3.razerzone.com/y9QelSTsiRmsw4Pa4m8uJxYcWF0=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh56%2Fh6c%2F9444520329246%2Fsneki-snek-wall-light-500x500.png
+		price:79.99
+		category:lifestyle
+	}
+	item19:
+	{	
+		name: Razer Kishi V2 for iPhone
+		desc-card: Universal Mobile Gaming Controller for iPhone
+		img-card:https://assets3.razerzone.com/Wzmn_tewrgJAVXcViCeEcuDbIyM=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhb7%2Fh27%2F9408540147742%2Fkishi-v2-iphone-500x500.png
+		price: 99.99
+		category:mobile
+	}
+	item20:
+	{	
+		name: Razer Kishi for Android (Xbox)
+		desc-card: Universal Gaming Controller for Android (Xbox)
+		img-card:https://assets3.razerzone.com/bobf598SlTQwQrow15bD0zJ0s2A=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh28%2Fh8e%2F9073649516574%2FRazer-Kishi-Xbox-500x500.png
+		price: 99.99
+		category:mobile
+	}
+	item21:
+	{	
+		name: Razer Arctech Pro for iPhone 13 Pro
+		desc-card: Protective Smartphone Case with Thermaphene™ Cooling Technology
+		img-card:https://assets3.razerzone.com/JmxAEDQajKzreG5gfRJ7IWSEnhA=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fha2%2Fhe1%2F9237632811038%2Farctech-pro-13-pro-2021-500x500.png
+		price: 99.99
+		category:mobile
+	}
+	item22:
+	{	
+		name: Razer Charging Pad Chroma
+		desc-card: 10W Fast Wireless Charger with Razer Chroma RGB
+		img-card:https://assets3.razerzone.com/S0Uh9faT6xlv6wPvWrxtDF_GlBU=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh89%2Fh96%2F9094272516126%2F500x500-chargingpadchroma.png
+		price: 59.99
+		category:mobile
+	}
+	
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+news item keys(laptops):
+{
+	item1:
+	{	
+		name: NEW RAZER BLADE 14
+		desc-banner: SMALL SIZE. BIG PERFORMANCE.
+		desc-card: NVIDIA® GeForce RTX™ 40 Series 14” Laptop with AMD Ryzen 9 7940HS Processor.
+		img-banner: https://assets2.razerzone.com/images/pnx.assets/6ca16320b8425e0a74bc7ed71f2adf99/razer-blade-14-2023-homepage-desktop2x.jpg
+		img-card:https://assets3.razerzone.com/HWyBrdi1Zay37XldxX3Y1O4puOg=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhb7%2Fh1b%2F9539342008350%2Fblade14-p9-black-500x500.png
+		price:2399.99
+		category:pc
+	}
+	item2:
+	{	
+		name: NEW RAZER BLADE 16
+		desc-banner: PERFORMANCE REIMAGINED.
+		desc-card: NVIDIA® GeForce RTX™ 40 Series 16” Laptop with 13th Gen Intel® Core™ i9 Processor (24-Core).
+		img-banner: https://assets2.razerzone.com/images/pnx.assets/a845f6901aeda8def2ad4b2ba0314ecb/mercury-blade16&18-homepage-desktop2x.jpg
+		img-card:https://assets3.razerzone.com/AqlD4yg0b4pooh6UMzHRDRfFoeM=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh03%2Fh9e%2F9524617838622%2Fblade16-s95-mercury-500x500.png
+		price:3799.99
+		category:pc
+	}
+	item3:
+	{	
+		name: NEW RAZER BLADE 18
+		desc-banner: PERFORMANCE REIMAGINED.
+		desc-card: NVIDIA® GeForce RTX™ 40 Series 14” Laptop with AMD Ryzen 9 7940HS Processor.
+		img-banner: https://assets2.razerzone.com/images/pnx.assets/a845f6901aeda8def2ad4b2ba0314ecb/mercury-blade16&18-homepage-desktop2x.jpg
+		img-card:https://assets3.razerzone.com/AqlD4yg0b4pooh6UMzHRDRfFoeM=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh03%2Fh9e%2F9524617838622%2Fblade16-s95-mercury-500x500.png
+		price:3799.99
+		category:pc
+	}
+	item4:
+	{	
+		name: Razer Hammerhead Pro HyperSpeed
+		desc-banner: PERFORMANCE REIMAGINED.
+		desc-card: True Wireless Gaming Earbuds with Razer™ HyperSpeed Wireless, Razer Chroma™ RGB, and Bluetooth 5.3.
+		img-banner: https://assets3.razerzone.com/4AXDpHbicRJcUvXfPj6zCNs5yo8=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh72%2Fhff%2F9525799813150%2F230530-hammerhead-pro-hyperspeed-1500x1000-1.jpg
+		img-card:https://assets3.razerzone.com/KPL4VvBV8F8ZaZAfuBFZlW-Hfeg=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh87%2Fhec%2F9525799256094%2Fhammerhead-pro-hyperspeed-500x500.png
+		price:199.99
+		category:peripheral
+	}
+	item5:
+	{	
+		name: Razer Blade 15 Full HD (2022)
+		desc-banner:Flagship 15-inch Laptop for Power and Portability
+		desc-card:15-inch Gaming Laptop with 13th Gen Intel® Core™ i7 Processor
+		img-banner: https://assets3.razerzone.com/Y9fv8qRtbhHgeb5h7pV3EMKBl5o=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh5c%2Fhd3%2F9286405095454%2F210104-blade-15-ch8-fhd-1500x1000-1.jpg
+		img-card:https://assets3.razerzone.com/UUODnE8z5w_1YhkDj3Gzf2wPwO8=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh2d%2Fhe5%2F9392073998366%2Fblade15-ch8-fhd-2-500x500.png
+		price:1999.99
+		category:pc
+	}
+	item6:
+	{	
+		name: Razer Cobra Pro
+		desc-banner: PERFECTED FOR PLAY
+		desc-card: Customizable Wireless Gaming Mouse with Razer Chroma™ RGB
+		img-banner: https://assets2.razerzone.com/images/pnx.assets/41ee1682d065dc87f4ba2424f885eea2/cobra-pro-homepage-desktop2x.jpg
+		img-card:https://assets3.razerzone.com/eUwowPQInL0giKWLJuZWhXRa3bA=/500x500/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhea%2Fh5f%2F9591466917918%2Fcobra-pro-500x500.png
+		price:129.99
+		category:peripheral
+	}
+}

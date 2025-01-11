@@ -1,0 +1,377 @@
+.footer {
+  padding: 20px 350px;
+  background-color: #111111;
+  color: #888888;
+
+  @media screen and (max-width: 1440px) {
+    padding: 20px 200px;
+  }
+
+  @media screen and (max-width: 1024px) {
+    padding: 20px 100px;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 20px 50px;
+  }
+}
+
+.footer__top {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #888888;
+
+  @media screen and (max-width: 425px) {
+    padding-bottom: 0;
+  }
+}
+
+.footer__topLeft {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer__shopList {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  @media screen and (max-width: 425px) {
+    width: 45%;
+  }
+}
+
+.footer__shopList--item {
+  list-style: none;
+
+  & a {
+    color: gray;
+    text-decoration: none;
+    transition: all ease-in-out 0.3s;
+
+    &:hover {
+      color: #66B933;
+      filter: drop-shadow(0px 0px 10px #82F72D);
+    }
+  }
+}
+
+.footer__shopList--top {
+  font-size: 1.5em;
+  color: #66b933;
+  text-decoration: none;
+  transition: ease-out 0.3s;
+}
+
+.footer__shopList--top:hover {
+  filter: drop-shadow(0px 0px 10px #82F72D);
+}
+
+.footer__shopList--link a {
+  color: #66b933;
+  text-decoration: none;
+}
+
+.footer__platformList {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  @media screen and (max-width: 425px) {
+    width: 40%;
+  }
+}
+
+.footer__platformList--item {
+  list-style: none;
+
+  & a {
+    color: gray;
+    text-decoration: none;
+    transition: all ease-in-out 0.3s;
+
+    &:hover {
+      color: #66B933;
+      filter: drop-shadow(0px 0px 10px #82F72D);
+    }
+  }
+}
+
+.footer__platformList--top {
+  font-size: 1.5em;
+  color: #66b933;
+  text-decoration: none;
+}
+
+.footer__platformList--link {
+  transition: ease-out 0.3s;
+}
+
+.footer__platformList--link:hover {
+  filter: drop-shadow(0px 0px 10px #82F72D);
+}
+
+.footer__platformList--link a {
+  color: #66b933;
+  text-decoration: none;
+}
+
+.footer__supportList {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  @media screen and (max-width: 425px) {
+    width: 40%;
+  }
+}
+
+.footer__supportList--item {
+  list-style: none;
+
+  & a {
+    color: gray;
+    text-decoration: none;
+    transition: all ease-in-out 0.3s;
+
+    &:hover {
+      color: #66B933;
+      filter: drop-shadow(0px 0px 10px #82F72D);
+    }
+  }
+}
+
+.footer__supportList--top {
+  font-size: 1.5em;
+  color: #66b933;
+  text-decoration: none;
+  transition: ease-out 0.3s;
+}
+
+.footer__supportList--top:hover {
+  filter: drop-shadow(0px 0px 10px #82F72D);
+}
+
+.footer__supportList--link a {
+  color: #66b933;
+  text-decoration: none;
+}
+
+.footer__companyList {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  @media screen and (max-width: 425px) {
+    width: 40%;
+  }
+}
+
+.footer__companyList--item {
+  list-style: none;
+
+  & a {
+    color: gray;
+    text-decoration: none;
+    transition: all ease-in-out 0.3s;
+
+    &:hover {
+      color: #66B933;
+      filter: drop-shadow(0px 0px 10px #82F72D);
+    }
+  }
+}
+
+.footer__companyList--top a {
+  font-size: 1.5em;
+  color: #66b933;
+  text-decoration: none;
+  transition: ease-out 0.3s;
+}
+
+.footer__followList {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 5px;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    // border: 1px solid #66b93350;
+    // background-color: #222;
+    padding: 5px;
+
+    .footer__companyList--top a {
+      color: #66b933;
+    }
+
+    .footer__followList--top {
+      font-size: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    // border: 1px solid #66b93350;
+    // background-color: #222;
+    padding: 5px;
+
+    .footer__companyList--top a {
+      color: #66b933;
+    }
+
+    .footer__followList--top {
+      font-size: 1.2rem;
+    }
+
+    .footer__followList--item {
+      width: 20px;
+      height: 20px;
+    }
+
+    .footer__follow--icon {
+      width: 12px;
+      height: 12px;
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    gap: 5px;
+
+    .footer__followList--item {
+      width: 18px;
+      height: 18px;
+    }
+
+    .footer__follow--icon {
+      width: 10px;
+      height: 10px;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    gap: 6px;
+
+    .footer__followList--top {
+      font-size: 1.1rem;
+      padding-right: 5px;
+    }
+
+    .footer__followList--item {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
+
+.footer__followList--item {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: #66B933;
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: ease-out 0.3s;
+
+  & a {
+    color: #888888;
+    transition: all ease-in-out 0.2s;
+  }
+}
+
+.footer__followList--item:hover {
+  border: 1px solid #66B933;
+
+  & a {
+    color: #66B933;
+    filter: drop-shadow(rgba(102, 185, 51, 1) 0px 0px 5px);
+  }
+}
+
+.footer__followList--top {
+  color: #66B933;
+  font-size: 1.5em;
+  text-decoration: none;
+  transition: ease-out 0.3s;
+}
+
+.footer__followList a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__follow--icon {
+  width: 20px;
+  height: 20px;
+}
+
+.footer__topRight {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  color: #66B933;
+  font-size: 1.5rem;
+
+  @media screen and (max-width: 1024px) {
+    display: none;
+  }
+}
+
+.footer__bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+
+  @media screen and (max-width: 425px) {
+    padding-top: 10px;
+    .footer__bottomLeftList {
+      gap: 5px;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    .footer__bottom{
+      font-size: 0.7rem;
+    }
+
+    .footer__bottomLeftList {
+      gap: 5px;
+    }
+    .footer__bottomLeft {
+    }
+  }
+}
+
+.footer__bottomLeft {
+  display: flex;
+  align-items: center;
+}
+
+.footer__bottomLeftList {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+.footer__bottomLeftList--item {
+  font-size: 0.8em;
+}
+
+.footer__bottomRight {
+  font-size: 0.8em;
+}

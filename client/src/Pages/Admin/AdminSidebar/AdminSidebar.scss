@@ -1,0 +1,23 @@
+.sidebar__box{
+    width: 20%;
+    height: 100%;
+    left: 0;
+    background-color: #042331;
+    position: fixed;
+    color: white;  
+
+    h1{
+        padding-left: 50px;
+        padding-top: 30px;
+    }
+    .sidebar__link__box{
+        padding-top: 100px;
+        padding-left: 50px;
+        ul{
+            list-style: none;
+            li{
+                padding-bottom: 50px;
+            }
+        }
+    }
+}

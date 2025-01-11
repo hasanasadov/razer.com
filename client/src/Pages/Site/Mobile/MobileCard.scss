@@ -1,0 +1,108 @@
+.mobileCard {
+    text-decoration: none;
+    flex: 1 1 300px;
+    max-width: 300px;
+    background-color: #111;
+    color: white;
+    transition: all ease-in-out 0.3s;
+    overflow: hidden;
+    border-radius: 5px;
+
+    &:hover {
+        box-shadow: 0px 0px 9px 7px rgba(102, 185, 51, 0.52);
+        -webkit-box-shadow: 0px 0px 9px 7px rgba(102, 185, 51, 0.52);
+        -moz-box-shadow: 0px 0px 9px 7px rgba(102, 185, 51, 0.52);
+    }
+
+    &:hover &--top>img {
+        transform: scale(1.1);
+    }
+
+    &:hover &--bottom p {
+        color: #66b933;
+    }
+
+    &--top {
+        background-color: #111;
+
+        & img {
+            object-fit: cover;
+            width: 100%;
+            height: 200px;
+            transition: all ease-in-out 0.3s;
+        }
+    }
+
+    &--bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    &-name {
+        font-size: 1.2rem;
+
+        & p {
+            transition: all ease-in-out 0.3s;
+        }
+    }
+
+    &-desc {
+        font-size: 0.875rem;
+        min-height: 75px;
+        color: gray;
+
+        & p {
+            transition: all ease-in-out 0.3s;
+        }
+    }
+
+    &-priceAdd {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &-left {
+            display: flex;
+            flex-direction: column;
+
+            & p {
+                margin: 0;
+                font-weight: bold;
+                transition: all ease-in-out 0.3s;
+            }
+        }
+
+        &-right {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            & button {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 40px;
+                height: 40px;
+                background-color: #333;
+                color: white;
+                border: none;
+                border-radius: 3px;
+                transition: all ease-in-out 0.3s;
+
+                &:first-child {
+                    margin-right: 10px;
+                }
+
+                &:hover {
+                    background-color: #66b933;
+                }
+
+                &:hover .addToCardIco {
+                    color: #111;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,648 @@
+.store {
+    width: 100%;
+    background-color: #000;
+
+    &__filter {
+        width: 100%;
+        padding: 100px 100px 50px 100px;
+
+        @media screen and (max-width: 1024px) {
+            padding: 100px 50px 50px 50px;
+        }
+
+        @media screen and (max-width: 600px) {
+            padding: 100px 20px 50px 20px;
+        }
+
+        &Carousel {
+            background-color: #2b2b2b;
+            padding: 10px;
+            border: 1px solid #686868;
+
+            &--box {
+                width: 120px !important;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+
+                &:hover .store__filterCarousel--boxTop>img {
+                    transform: scale(1.1);
+                    filter: drop-shadow(0px 0px 6px rgba(102, 185, 51, 0.8)) drop-shadow(0px 0px 8px rgba(102, 185, 51, 0.6)) drop-shadow(0px 0px 10px rgba(102, 185, 51, 0.4));
+                }
+            }
+
+            &--boxTop {
+                width: 100%;
+                height: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                img {
+                    transition: all ease-in-out 0.2s;
+                    max-width: 70%;
+                    max-height: 70%;
+                    object-fit: contain;
+                }
+            }
+
+            &--boxBottom {
+                color: white;
+                font-size: 0.875rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            }
+        }
+    }
+
+
+    &__freshHero {
+        width: 100%;
+        padding: 20px 120px;
+        color: white;
+        min-height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        @media screen and (max-width: 1440px) {
+            padding: 20px 100px;
+        }
+
+        @media screen and (max-width: 1280px) {
+            padding: 20px 150px;
+        }
+
+        @media screen and (max-width: 1024px) {
+            padding: 20px 50px;
+        }
+
+        @media screen and (max-width: 768px) {
+            padding: 20px 70px;
+        }
+
+
+        &-top {
+            p:first-child {
+                color: #66b933;
+                font-size: 2.25rem;
+                font-weight: 700;
+                line-height: 30px;
+
+                @media screen and (max-width: 425px) {
+                    font-size: 1.2rem;
+                }
+            }
+
+            p:last-child {
+                color: gray;
+                font-size: 1.1rem;
+
+                @media screen and (max-width: 425px) {
+                    font-size: 0.9rem;
+                }
+            }
+        }
+
+        &-bottom {
+            p:first-child {
+                color: white;
+                font-size: 1.5rem;
+                font-weight: 700;
+                line-height: 25px;
+
+                @media screen and (max-width: 425px) {
+                    font-size: 1.2rem;
+                }
+            }
+
+            p:last-child {
+                color: gray;
+                font-size: 1.1rem;
+                
+                @media screen and (max-width: 425px) {
+                    font-size: 0.9rem;
+                }
+            }
+        }
+    }
+
+    &__fresh {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 20px;
+        align-items: center;
+        justify-content: center;
+        column-gap: 20px;
+        row-gap: 20px;
+
+        &__card {
+            width: 100%;
+            max-width: 300px;
+            background-color: #222;
+            color: white;
+            transition: all ease-in-out 0.3s;
+            overflow: hidden;
+            border-radius: 5px;
+
+            &:hover {
+                box-shadow: 0px 0px 9px 7px rgba(102, 185, 51, 0.52);
+                -webkit-box-shadow: 0px 0px 9px 7px rgba(102, 185, 51, 0.52);
+                -moz-box-shadow: 0px 0px 9px 7px rgba(102, 185, 51, 0.52);
+            }
+
+            &:hover &--top>img {
+                transform: scale(1.1);
+            }
+
+            &:hover &--bottom p {
+                color: #66b933;
+                font-weight: 500;
+            }
+
+            &--top {
+                background-color: #111;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #111;
+
+                & img {
+                    object-fit: cover;
+                    width: 60%;
+                    height: 200px;
+                    transition: all ease-in-out 0.3s;
+                }
+            }
+
+            &--bottom {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                padding: 10px;
+
+            }
+
+            &-name {
+                width: 290px;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden; 
+                font-size: 1.2rem;
+
+                & p {
+                    transition: all ease-in-out 0.3s;
+                }
+            }
+
+            &-desc {
+                width: 290px;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;  
+                font-size: 0.875rem;
+                min-height: 75px;
+                color: gray;
+
+                & p {
+                    transition: all ease-in-out 0.3s;
+                }
+            }
+
+            &-priceAdd {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                &-left {
+                    display: flex;
+                    flex-direction: column;
+
+                    & p {
+                        margin: 0;
+                        font-weight: bold;
+                        transition: all ease-in-out 0.3s;
+                    }
+                }
+
+                &-right {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    & button {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 40px;
+                        height: 40px;
+                        background-color: #333;
+                        color: white;
+                        border: none;
+                        border-radius: 3px;
+                        transition: all ease-in-out 0.2s;
+
+                        &:first-child{
+                            margin-right: 10px;
+                        }
+
+                        &:hover {
+                            background-color: #66b933;
+                            color: black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &__newsSlider {
+        width: 100%;
+        padding: 20px;
+
+    }
+
+    &__newsCarousel {
+        width: 100%;
+
+        &--box {
+            width: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: white;
+        }
+
+        &--inner {
+            width: 100%;
+            padding: 120px 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: space-between;
+            gap: 20px;
+
+            & p {
+                text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+            }
+
+            & p:first-child {
+                font-size: 1.5rem;
+                font-weight: 700;
+            }
+
+            & p:last-child {
+                font-size: 1.2rem;
+                color: gray;
+                font-weight: 600;
+            }
+        }
+
+        &--box1 {
+            background-image: url(https://assets2.razerzone.com/images/pnx.assets/8e31769b8db172029de15fb8e950cd73/new-age-technoloy-campaign-1920x400.jpg);
+        }
+
+        &--box2 {
+            background-image: url(https://assets2.razerzone.com/images/pnx.assets/2a46696fd1412d2e7aa5e78460a15653/1920x400.jpg);
+        }
+
+        &--box3 {
+            background-image: url(https://assets2.razerzone.com/images/pnx.assets/cc58ab7cef605b2c53a7f5d0c61c2eff/esportsevergreen-catbnr-desktop-400px.jpg);
+        }
+    }
+
+    &__prodsHero {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 0;
+
+        & p {
+            text-align: center;
+        }
+
+        & p:first-child {
+            color: #66b933;
+            font-size: 2.5rem;
+            font-weight: 700;
+
+            @media screen and (max-width: 425px) {
+                font-size: 1.2rem;
+            }
+        }
+
+        & p:last-child {
+            color: gray;
+            font-size: 1.25rem;
+            font-weight: 600;
+
+            @media screen and (max-width: 425px) {
+                font-size: 0.9rem;
+            }
+        }
+    }
+
+    &__prods {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 20px;
+        align-items: center;
+        justify-content: center;
+        column-gap: 20px;
+        row-gap: 20px;
+
+        &__card {
+            width: 100%;
+            max-width: 300px;
+            background-color: #222;
+            color: white;
+            transition: all ease-in-out 0.3s;
+            overflow: hidden;
+            border-radius: 5px;
+
+            &:hover {
+                box-shadow: 0px 0px 9px 7px rgba(102, 185, 51, 0.52);
+                -webkit-box-shadow: 0px 0px 9px 7px rgba(102, 185, 51, 0.52);
+                -moz-box-shadow: 0px 0px 9px 7px rgba(102, 185, 51, 0.52);
+            }
+
+            &:hover &--top>img {
+                transform: scale(1.1);
+            }
+
+            &:hover &--bottom p {
+                color: #66b933;
+                font-weight: 500;
+            }
+
+            &--top {
+                width: 100%;
+                background-color: #111;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #111;
+                & img {
+                    object-fit: cover;
+                    width: 60%;
+                    height: 200px;
+                    transition: all ease-in-out 0.3s;
+                }
+            }
+
+            &--bottom {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                padding: 10px;
+            }
+
+            &-name {
+                width: 290px;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden; 
+                font-size: 1.2rem;
+
+
+                & p {
+                    transition: all ease-in-out 0.3s;
+                }
+            }
+
+            &-desc {
+                width: 290px;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;  
+                font-size: 0.875rem;
+                min-height: 75px;
+                color: gray;
+
+                & p {
+                    transition: all ease-in-out 0.3s;
+                }
+            }
+
+            &-priceAdd {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                &-left {
+                    display: flex;
+                    flex-direction: column;
+
+                    & p {
+                        transition: all ease-in-out 0.3s;
+                    }
+                }
+
+                &-right {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    & button {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 40px;
+                        height: 40px;
+                        background-color: #333;
+                        color: white;
+                        border: none;
+                        border-radius: 3px;
+                        transition: all ease-in-out 0.3s;
+
+                        &:first-child{
+                            margin-right: 10px;
+                        }
+
+                        &:hover {
+                            background-color: #66b933;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &__offerSlider {
+        width: 100%;
+        padding: 20px;
+    }
+
+    &__offerCarousel {
+        width: 100%;
+
+        &--box {
+            width: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: white;
+        }
+
+        &--inner {
+            width: 100%;
+            padding: 120px 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: space-between;
+            gap: 20px;
+
+            & p {
+                text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+            }
+
+            & p:first-child {
+                color: #66b933;
+                font-size: 1.5rem;
+                font-weight: 700;
+            }
+
+            & p:last-child {
+                font-size: 0.875rem;
+                color: gray;
+                font-weight: 600;
+            }
+        }
+
+        &--box1 {
+            background-image: url(https://assets2.razerzone.com/images/pnx.assets/186921c07aa55486994e5d5de6ecc511/razer-skins-store-desktop.jpg);
+        }
+
+        &--box2 {
+            background-image: url(https://assets2.razerzone.com/images/pnx.assets/d90c20bd9a4df3f52933b15e89306f08/viper-mini-signature-store-desktop.jpg);
+        }
+
+        &--box3 {
+            background-image: url(https://assets2.razerzone.com/images/pnx.assets/3ab06c5a17df1ec96d6616f360e65e43/razer-refurbished-laptops_desktop_1920x400.jpg);
+        }
+    }
+
+
+    &__whyBuy {
+        width: 100%;
+        padding: 40px 20px;
+
+        &--top {
+            width: 100%;
+
+            & p {
+                color: #66b933;
+                font-size: 3rem;
+                font-weight: 700;
+                text-align: center;
+            }
+        }
+
+        &--bottom {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        &--item {
+            width: 100%;
+            max-width: 300px;
+            color: white;
+
+            &-top {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 20px;
+            }
+
+            &-bottom {
+                & p {
+                    text-align: center;
+                }
+
+                & p:first-child {
+                    font-size: 1.5rem;
+                    font-weight: 700;
+                }
+
+                & p:last-child {
+                    color: gray;
+                }
+            }
+        }
+
+        &--icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid white;
+        }
+    }
+}
+
+.slick-slide div {
+    margin: 0 auto;
+}
+
+.slick-prev::before {
+    color: rgb(102, 185, 51) !important;
+}
+
+.slick-next::before {
+    color: rgb(102, 185, 51) !important;
+}
+
+.addToCardIco {
+    font-size: 1.3rem;
+}
+
+.whyBuyIcons {
+    font-size: 2.5rem;
+}
+
+@media screen and (max-width: 375px) {
+
+    .store__newsCarousel--inner {
+        padding: 50px 30px;
+        gap: 10px;
+        align-items: flex-end;
+
+        & p:first-child {
+            font-size: 0.9rem;
+        }
+
+        & p:last-child {
+            font-size: 0.6rem;
+        }
+    }
+
+    .store__offerCarousel--inner {
+        padding: 50px 30px;
+        gap: 10px;
+        align-items: flex-end;
+
+        & p:first-child {
+            font-size: 0.9rem;
+        }
+
+        & p:last-child {
+            width: 70%;
+            font-size: 0.6rem;
+        }
+    }
+
+    .store__whyBuy--bottom {
+        justify-content: center;
+    }
+}
